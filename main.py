@@ -1,4 +1,5 @@
 import urllib2
+import sys
 from BeautifulSoup import BeautifulSoup
 
 def getRuntimeFromUrl(url):
@@ -20,6 +21,7 @@ for title in titles:
 for url in urls:
 	runningMins += getRuntimeFromUrl(url)
 	counter += 1
-	print(str((counter / 250.0) * 100.0) + "%")
+	sys.stdout.write("\r" + str((counter / 250.0) * 100.0) + "%")
+        sys.stdout.flush()
 
 print(runningMins / 60.0)

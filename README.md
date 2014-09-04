@@ -6,7 +6,7 @@ I made this script a while ago and decided to put it on GitHub. Someone posted a
 Answer (as of 9/2/14): [532.3 hours](http://www.wolframalpha.com/input/?i=532.3+hours).
 
 Ideas for polishing:
-* Create a text buffer for percentage, or maybe a progress bar
+* ~~Create a text buffer for percentage, or maybe a progress bar~~
 * Make it go faster?
 
 #Requirements

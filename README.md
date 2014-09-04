@@ -9,5 +9,7 @@ Ideas for polishing:
 * ~~Create a text buffer for percentage, or maybe a progress bar~~
 * Make it go faster?
 
+Test
+
 #Requirements
 [BeatifulSoup](http://www.crummy.com/software/BeautifulSoup/) via `pip install BeatifulSoup`
